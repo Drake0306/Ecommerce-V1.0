@@ -1,6 +1,29 @@
 .App {
   text-align: center;
 }
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(185, 185, 185, 0.5); 
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background: rgba(177, 177, 177, 0.8); 
+  box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background: #4d4d4d; 
+}
 
 .App-logo {
   height: 40vmin;
